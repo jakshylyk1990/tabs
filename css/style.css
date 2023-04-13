@@ -1,0 +1,116 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tabs img {
+    width: 200px;
+}
+.tabs input 
+    
+
+    #js:checked ~ .html,
+    #js:checked ~ .css {
+    display: none;
+}
+
+#html:checked ~ .js,
+#html:checked ~ .css{
+  display: none;
+}
+
+#css:checked ~ .js,
+#css:checked ~ .html{
+  display: none;
+}
+ */
+ .labels{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+padding: 40px 0;
+
+ }
+ .labels label{
+    margin: 0 10px;
+    padding: 3px 10px;
+    background: blue;
+    font-size: 20px;
+    color:white;
+    border-radius: 5px;
+ }
+.tabs img{
+    width: 500px;
+height: 400px;
+}
+#naryn:checked ~ .jalal,
+#naryn:checked ~ .talas,
+#naryn:checked ~ .kol,
+#naryn:checked ~ .batken,
+#naryn:checked ~ .chuy,
+#naryn:checked ~ .osh{
+    display: none;
+}
+#batken:checked ~ .jalal,
+#batken:checked ~ .talas,
+#batken:checked ~ .kol,
+#batken:checked ~ .chuy,
+#batken:checked ~ .osh,
+#batken:checked ~ .naryn{
+    display: none;
+}
+#talas:checked ~ .jalal,
+#talas:checked ~ .kol,
+#talas:checked ~ .chuy,
+#talas:checked ~ .osh,
+#talas:checked ~ .batken,
+#talas:checked ~ .naryn{
+    display: none;
+}
+#jalal:checked ~ .talas,
+#jalal:checked ~ .kol,
+#jalal:checked ~ .batken,
+#jalal:checked ~ .chuy,
+#jalal:checked ~ .naryn,
+#jalal:checked ~ .osh{
+    display: none;
+}
+#chuy:checked ~ .jalal,
+#chuy:checked ~ .kol,
+#chuy:checked ~ .batken,
+#chuy:checked ~ .talas,
+#chuy:checked ~ .osh,
+#chuy:checked ~ .naryn{
+    display: none;
+}
+#osh:checked ~ .jalal,
+#osh:checked ~ .talas,
+#osh:checked ~ .batken,
+#osh:checked ~ .chuy,
+#osh:checked ~ .naryn,
+#osh:checked ~ .kol{
+    display: none;
+}
+#kol:checked ~ .jalal,
+#kol:checked ~ .talas,
+#kol:checked ~ .chuy,
+#kol:checked ~ .batken,
+#kol:checked ~ .osh,
+#kol:checked ~ .naryn{
+    display: none;
+
+
+
+
+
+
+
+
+
+  
